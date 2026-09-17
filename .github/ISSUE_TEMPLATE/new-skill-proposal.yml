@@ -1,0 +1,24 @@
+name: New skill proposal
+description: Propose a reusable skill before implementation.
+title: "[Skill]: "
+body:
+  - type: textarea
+    id: audience
+    attributes: {label: Audience and recurring job}
+    validations: {required: true}
+  - type: textarea
+    id: overlap
+    attributes: {label: Existing overlap and why extension is insufficient}
+    validations: {required: true}
+  - type: textarea
+    id: safety
+    attributes: {label: Reads, writes, execution, network, privileges, and risks}
+    validations: {required: true}
+  - type: textarea
+    id: portability
+    attributes: {label: Dependencies, clients, and portability}
+    validations: {required: true}
+  - type: textarea
+    id: ownership
+    attributes: {label: Maintenance owner and proposed tests}
+    validations: {required: true}

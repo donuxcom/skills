@@ -1,0 +1,39 @@
+{
+  "dx-codebase-walkthrough": {
+    "positive": [
+      "Walk me through how this repository executes a request from entrypoint to persistence.",
+      "Create an engineering onboarding guide that explains this codebase in reading order.",
+      "Write a code architecture walkthrough with evidence from the source."
+    ],
+    "negative": [
+      "Give me a feature tour for a product manager.",
+      "Map the user interface screens and navigation.",
+      "Explain the business entities and their lifecycle rules."
+    ]
+  },
+  "dx-domain-walkthrough": {
+    "positive": [
+      "Explain the core entities, roles, and business rules in this repository.",
+      "Create domain onboarding for a new product and engineering teammate.",
+      "Map the lifecycle states, transitions, and permissions from the source."
+    ],
+    "negative": [
+      "Trace the application startup and request execution path.",
+      "Review visual spacing and typography choices.",
+      "List product features and user-facing modules without domain rules."
+    ]
+  },
+
+  "dx-product-walkthrough": {
+    "positive": [
+      "Create a product onboarding tour from this repository.",
+      "Map the user-facing modules, capabilities, and main journeys.",
+      "Explain what this platform lets customers build or configure."
+    ],
+    "negative": [
+      "Trace every internal function call for an engineer.",
+      "Audit the component library’s visual consistency.",
+      "Document only entity relationships and state transitions."
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "collection_version": "0.1.0",
+  "maturity": "experimental",
+  "schema_version": "1",
+  "skills": [
+    {
+      "author": "Giustino Borzacchiello (jubstuff), Giuseppe Mamone (garusky)",
+      "compatibility": "Requires repository read access and approval to write one HTML or Markdown file; no credentials or network access.",
+      "default_output_format": "html",
+      "deprecated": false,
+      "description": "Use when a repository needs an implementation-first architecture and execution-flow walkthrough for engineering onboarding; do not use for a product feature tour.",
+      "external_domains": [],
+      "license": "Apache-2.0",
+      "maturity": "experimental",
+      "name": "dx-codebase-walkthrough",
+      "output_formats": [
+        "html",
+        "markdown"
+      ],
+      "permissions": [
+        "read-approved-repository-files",
+        "write-one-approved-walkthrough-output"
+      ],
+      "publisher": "Donux",
+      "version": "0.1.0"
+    },
+    {
+      "author": "Giustino Borzacchiello (jubstuff), Giuseppe Mamone (garusky)",
+      "compatibility": "Requires repository read access and approval to write one HTML or Markdown file; no credentials or network access.",
+      "default_output_format": "html",
+      "deprecated": false,
+      "description": "Use when a repository needs domain onboarding covering entities, terminology, rules, permissions, workflows, and lifecycle states; not for architecture alone.",
+      "external_domains": [],
+      "license": "Apache-2.0",
+      "maturity": "experimental",
+      "name": "dx-domain-walkthrough",
+      "output_formats": [
+        "html",
+        "markdown"
+      ],
+      "permissions": [
+        "read-approved-repository-files",
+        "write-one-approved-walkthrough-output"
+      ],
+      "publisher": "Donux",
+      "version": "0.1.0"
+    },
+    {
+      "author": "Giustino Borzacchiello (jubstuff), Giuseppe Mamone (garusky)",
+      "compatibility": "Requires repository read access and approval to write one HTML or Markdown file; no credentials or network access.",
+      "default_output_format": "html",
+      "deprecated": false,
+      "description": "Use when a repository needs product onboarding covering capabilities, modules, user journeys, roles, and integrations; not for implementation architecture alone.",
+      "external_domains": [],
+      "license": "Apache-2.0",
+      "maturity": "experimental",
+      "name": "dx-product-walkthrough",
+      "output_formats": [
+        "html",
+        "markdown"
+      ],
+      "permissions": [
+        "read-approved-repository-files",
+        "write-one-approved-walkthrough-output"
+      ],
+      "publisher": "Donux",
+      "version": "0.1.0"
+    }
+  ]
+}
